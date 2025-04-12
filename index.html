@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    .bgimg {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url(mypic.jpg);
+      min-height: 100%;
+    }
+    </style>
+  </head>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Riya Shivhare</b></h1>
+    <p>Web Devepolement and UI/UX.</p>
+    
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+  </header>
+
+
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-5 w3-content" id="portfolio">
+    <h2 class="w3-text-grey">My Portfolio</h2>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="bp job simulation.png" style="width:100%">
+        <img src="Food app UI.png" style="width:100%">
+        <img src="A shy girl sketch.jpeg" style="width:100%">
+        <img src="1.jpg.png" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="Multiverse UI.png" style="width:100%">
+        <img src="techfest Landing page.png" style="width:100%">
+        <img src="Krishna ji's sketch.jpeg" style="width:100%">
+        
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About</h2>
+    <hr class="w3-opacity">
+    <p>Dynamic, results-driven professional with a proven track record of turning challenges into opportunities and consistently exceeding expectations. I thrive in high-pressure environments and take pride in crafting innovative solutions that drive measurable business growth. With a relentless passion for 
+      web designing, I bring a blend of creativity, strategic thinking, and hands-on expertise to the table. Whether leading a team, executing complex projects, or delivering transformative results, I consistently raise the bar for excellence. Ready to break boundaries, inspire change, and leave a lasting impact wherever I go.
+    </p>
+    <h3 class="w3-padding-16">My Skills</h3>
+    <p class="w3-wide">Frontend(Html/CSS/Javascript)</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">95%</div>
+    </div>
+    <p class="w3-wide">UI/UX</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+    </div>
+    <p class="w3-wide">Python</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+    </div>
+    <p class="w3-wide">DBMS</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+    </div><br>
+
+    
+    <a href="https://drive.google.com/file/d/1m_i3XsqcMmypElzq2SvjVqhVw5TCxlvP/view?usp=drive_link" target="_blank" class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+  <i class="fa fa-download"></i> Download Resume
+</a>
+
+
+  <!-- End About Section -->
+  </div>
+
+  <!-- Project Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="projects">
+    <h2>Projects</h2>
+    <hr class="w3-opacity">
+
+    <!-- Project 1 -->
+    <div class="w3-row-padding" style="margin-bottom:24px;">
+      <div class="w3-third">
+        <img src="Furniture website.png" alt="Project 1" style="width:100%; height:250px; border-radius:10px">
+      </div>
+      <div class="w3-twothird">
+        <h3>Modern Furniture E-Commerce Platform Landing Page Design</h3>
+        <p>The landing page for Furn., a modern furniture e-commerce platform, is meticulously crafted to deliver a flawless shopping experience while showcasing an array of stylish furniture options.</p>
+        <a href="https://github.com/pihu089/Modern-Furniture-E-Commerce-Platform-Landing-Page-Design" target="_blank">
+          <button class="w3-button w3-dark-grey w3-margin-top">
+            <i class="fa fa-github"></i> View on GitHub
+          </button>
+        </a>
+      </div>
+    </div>
+<br>
+    <!-- Project 2 -->
+    <div class="w3-row-padding" style="margin-bottom:24px;">
+      <div class="w3-third">
+        <img src="Spell checker using textblob.png" alt="Project 2" style="width:100%; border-radius:10px">
+      </div>
+      <div class="w3-twothird">
+        <h3>Spell Checker Using TextBlob</h3>
+        <p> Created aPython script that utilizes the TextBlob library to check and correct spelling errors in user-input words.Natural Language Processing: Implemented TextBlob for text analysis, including sentiment evaluation and noun phrase extraction.</p>
+        <a href="https://github.com/pihu089/Spell-Checker-Using-TextBlob-" target="_blank">
+          <button class="w3-button w3-dark-grey w3-margin-top">
+            <i class="fa fa-github"></i> View on GitHub
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="w3-row-padding" style="margin-bottom:24px;">
+      <div class="w3-third">
+        <img src="todolist.png" alt="Project 3" style="width:100%;height:250px; border-radius:10px">
+      </div>
+      <div class="w3-twothird">
+        <h3>To-do list </h3>
+        <p>Welcome to your simple To-Do List Application! This web app is designed to help you manage your tasks efficiently. Built with HTML, CSS, and JavaScript, it offers a user-friendly interface for adding, removing, and organizing your to-dos.</p>
+        <a href="https://github.com/pihu089/To-Do-list/blob/main/README.md" target="_blank">
+          <button class="w3-button w3-dark-grey w3-margin-top">
+            <i class="fa fa-github"></i> View on Github
+          </button>
+        </a>
+      </div>
+    </div>
+</div>
+<!-- project section end-->
+
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Connect with me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xmedium w3-margin-right"></i> Mumbai, India</p>
+      <p><i class="fa fa-phone fa-fw w3-xmedium w3-margin-right"></i> Phone: +91 9152262058</p>
+      <p><i class="fa fa-envelope fa-fw w3-xmedium w3-margin-right"> </i> Email: shivhare.riya2005@gmail.com</p>
+    </div>
+    <br>
+   
+    <p>Lets get in touch. Send me a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-medium" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>  
+  
+  <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+  <!-- Footer -->
+<footer class="w3-container w3-light-grey w3-center w3-opacity" style="padding:16px;">
+  <!-- Navigation Links -->
+  <div style="font-size:14px; margin-bottom:8px;">
+    <span><a href="#home" class="w3-text-grey w3-hover-opacity" style="text-decoration:none; margin-right:20px;">Home</a></span>
+    <span><a href="#about" class="w3-text-grey w3-hover-opacity" style="text-decoration:none; margin-right:20px;">About</a></span>
+    <span><a href="#portfolio" class="w3-text-grey w3-hover-opacity" style="text-decoration:none; margin-right:20px;">Projects</a></span>
+    <span><a href="#contact" class="w3-text-grey w3-hover-opacity" style="text-decoration:none;">Contact Me</a></span>
+  </div>
+  
+  <!-- Social Media Links -->
+  <div style="font-size:20px;">
+    <a href="https://in.pinterest.com/Riyashiv789/" target="_blank" class="w3-hover-opacity" style="margin-right:10px;">
+      <i class="fa fa-pinterest-p"></i>
+    </a>
+    <a href="https://dribbble.com/riya05" target="_blank" class="w3-hover-opacity" style="margin-right:10px;">
+      <i class="fa fa-dribbble"></i>
+    </a>
+    <a href="https://github.com/pihu089?tab=repositories" target="_blank" class="w3-hover-opacity" style="margin-right:10px;">
+      <i class="fa fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/riya-shivhare/" target="_blank" class="w3-hover-opacity">
+      <i class="fa fa-linkedin"></i>
+    </a>
+  </div>
+  
+  <!-- Footer Credit -->
+  <p class="w3-small w3-margin-top" style="font-size:12px;">Made with ❤️ by Riya Shivhare</p>
+</footer>
+
+
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
